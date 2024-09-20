@@ -6,7 +6,7 @@ function signIn(){
     form.setAttribute('action',oauth2Endpoint)
 
     let params ={
-        "client_id":"405041029168-t9tge5ajc2ocmgidf761gu4j6330ltvf.apps.googleusercontent.com",
+        "client_id":"405041029168-2nm9jnd9seeljt1l2n92tjlt0n3741bu.apps.googleusercontent.com",
         "redirect_uri":"https://ashokside.github.io/strangers/profile.html",
         "response_type":"token",
         "scope":"https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/youtube.readonly",
