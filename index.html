@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign In</title>
+</head>
+<body>    
+    <form class="form">
+        <p id="heading">Sign In</p>
+        <div class="field">
+            <span class="material-symbols-outlined">  </span>
+            <input
+                autocomplete="off"
+                placeholder="Username"
+                class="input-field"
+                type="text"
+            />
+        </div>
+        <div class="field">
+            <span class="material-symbols-outlined">  </span>
+            <input
+                placeholder="Password"
+                class="input-field"
+                type="password"
+                id="password"
+            />        
+        </div>
+        <div class="field1">
+            <input type="checkbox" id="showPassword">
+            <label for="showPassword" class="lbl">Show Password</label>        
+        </div>        
+        <div class="btn">
+            <button class="button4">Login</button>
+            &nbsp;&nbsp;
+            <button class="button4">Sign Up</button>
+       </div>
+       <button class="button5">Forgot Password</button>       
+       <div class="field2">        
+        OR
+    </div>
+    <input type="button" class="button3" value="Login with Google" onclick="signIn();">       
+    </form>
+</body>
+
+<script src="gscript.js"></script>
+<script>
+    const passwordInput = document.getElementById('password');
+    const showPasswordCheckbox = document.getElementById('showPassword');
+    showPasswordCheckbox.addEventListener('change',function(){
+        if(this.checked){
+            passwordInput.type = 'text';
+        }else{
+            passwordInput.type = 'password';
+        }
+    });
+</script>
+</html>
