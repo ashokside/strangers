@@ -7,7 +7,7 @@ function signIn(){
 
     let params ={
         "client_id":"405041029168-2nm9jnd9seeljt1l2n92tjlt0n3741bu.apps.googleusercontent.com",
-        "redirect_uri":"https://vchatt.github.io/strangers/profile.html",
+        "redirect_uri":"https://vchatt.github.io/profile.html",
         "response_type":"token",
         "scope":"https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/youtube.readonly",
         "include_granted_scopes" : 'true',
