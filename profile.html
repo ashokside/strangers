@@ -16,7 +16,6 @@
         <img id="image" class="field3"/>
     </div>
     <p id="name" class="fieldpname"> </p>
-    <p id="country" class="fieldpname"> </p>
     
     <input type="button" class="btnConnect" value="Connect" onclick="vchat()">       
           
@@ -56,7 +55,6 @@
     .then((info) => {
         console.log(info)
         document.getElementById('name').innerHTML += info.name
-        document.getElementById('country').innerHTML += info.country       
         document.getElementById('image').setAttribute('src',info.picture)
     })
 

@@ -18,7 +18,6 @@ function signIn(){
         let input = document.createElement('input')
         input.setAttribute('type','hidden')
         input.setAttribute('name',p)
-        input.setAttribute('country',p)
         input.setAttribute('value',params[p])
         form.appendChild(input)
     }
