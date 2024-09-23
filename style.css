@@ -141,7 +141,7 @@ body {
 .btnConnect{
     padding: 1.0em;
     border-radius: 5px;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     border: none;
     outline: none;
     transition: .4s ease-in-out;
